@@ -1,0 +1,258 @@
+/* // Extra large devices (large desktops)-1920px*/
+@media only screen and (min-width: 1920px) {
+    .container{
+       width: 1900px;
+       padding: 0 15px;
+   } 
+} 
+/* quary end */
+
+/* // Large devices (desktops, less than 1200px)-1366px */
+@media only screen and (min-width: 1200px) and (max-width: 1919px) { 
+    .container{
+       width: 1180px;
+       padding: 0 15px;
+   } 
+}
+/* quary end */
+
+/* // Medium devices (tablets, less than 992px)-992-1024px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+   .container{
+       width: 970px;
+       padding: 0 15px;
+   }
+   .input-box .name,
+   .input-box .email{
+       width: 49%;
+       display: inline;
+       margin:10px 0px;
+   }
+   .question-bg a{
+    right: 4%;
+   }
+}
+/* quary end */
+
+/* // Small devices (landscape phones, less than 768px)-768px  */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+   .container{
+       width: 750px;
+       padding: 0 15px;
+   }
+
+   .banner-content h1,
+   .banner-content h1 span{
+    font-size:60px;
+     }
+     .banner-content h6{
+        line-height: 1.5;
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .banner-content a {
+        font-size: 1.4rem;
+        padding: 15px 34px;
+        margin-right: 20px;
+    }
+    .about-me-content h2::before {
+        top: -14px;
+        font-size: 70px;
+    }
+    .skill-content h2::before{
+        font-size: 70px;
+    }
+
+    .resume-content h2::before,
+    .work-content h2::before,
+    .get-content h2::before{
+        font-size: 65px;;
+    }
+
+    .about-me-content p{
+        font-size: 18px;
+    }
+
+    .about-me-content h2::before {
+        left: 28%;
+    }
+
+    .input-box .name,
+    .input-box .email{
+        width: 100%;
+        display: block;
+        margin:10px 0px;
+    }
+
+    .question-bg a{
+        right: 3%;
+    }
+
+}
+/* quary end */
+
+/* // All mobile device -Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 767px) { 
+   .container{
+       width: 100%;
+       padding: 0 15px;
+       box-sizing: border-box;
+   }
+
+   .banner-content h1,
+   .banner-content h1 span{
+    font-size:45px;
+     }
+     .input-box .name,
+     .input-box .email{
+         width: 100%;
+         display: block;
+         margin:10px 0px;
+     }
+     .banner-content a{
+        margin-bottom: 10px;
+        margin-right: 0px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* quary end */
+/* wide screen mobile device */
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+   /* .container{
+       width: 100%;
+       padding: 0 15px;
+       box-sizing: border-box;
+   } */
+   .head{
+       min-height: 40vh;
+   }
+   .banner-content h1,
+   .banner-content h1 span{
+    font-size:35px;
+     }
+     .banner-content h6{
+        line-height: 1.5;
+        font-size: 14px;
+        padding-top: 20px;
+        padding-bottom: 35px;
+
+        }
+
+        .navbar-light .navbar-toggler {
+            color: #fff !important;
+            border-color: #fff;
+        }
+
+        .social-follow ul {
+            top: 37%;
+            left: 74%;
+            width: 233px;
+        }
+
+        .about-me-content h2::before {
+            top: -14px;
+            font-size: 56px;
+        }
+        .skill-content h2::before{
+            font-size: 50px;
+        }
+        .skill-content h2{
+            margin-bottom: 55px;
+        }
+       
+        .resume-content h2::before,
+        .work-content h2::before,
+        .get-content h2::before{
+            font-size: 43px;;
+        }
+        .work-content h2::before{
+            left: 0;
+        }
+        .portfolio-menu ul li{
+            margin-right: 5px !important;
+        }
+        .inner-text{
+            padding-left: 0px;
+        }
+        .inner-text h1{
+            font-size: 19px;
+        }
+        .question-bg a {
+            color: #000;
+            font-size: 1rem;
+            padding: 11px 20px;
+            border: 1px solid #5ebcd4;
+            border-bottom-right-radius: 27px;
+            background: #fff;
+            position: absolute;
+        }
+        .get-content h2::before{
+            left: 0px;
+        }
+        .input-box .name,
+        .input-box .email{
+            width: 100%;
+            display: block;
+            margin:10px 0px;
+        }
+        .input-box a{
+            text-align: center;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .input-box .message{
+            margin-bottom: 14px;
+        }
+        .terms a {
+            font-size: 13px;
+        }
+        .icon-footer a .layer{
+            width: 20px;
+            height: 20px;
+        }
+        .icon-footer a .layer span.fab{
+            line-height: 20px;
+            font-size: 14px;
+        }
+        .text-icon{
+            display: none;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* quary end */
